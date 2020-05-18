@@ -1,0 +1,88 @@
+.play-btn {
+  z-index: 99999;
+  width: 7vw;
+  height: 7vw;
+  background: radial-gradient(#ff0000 50%, rgba(0,0,0, 0.15) 52%);
+  border-radius: 1000%;
+  box-shadow: 0px 0px 50px 30px rgba(255,0,0, 0.3), inset 0px 0px 50px 15px rgba(255,0,0, 0.3);
+  display: block;
+  position: relative;
+  top: 74vh;
+ 
+  left: 47vw;
+  padding-left: 5px ;
+  z-index: 100px;
+  overflow: visible;
+
+/*  animation:glow2 5s infinite;
+  animation-direction: linear;*/
+}
+
+@-webkit-keyframes glow2{
+  0% { background: radial-gradient(#f82249 50%, #6578c3 52%); }
+  25%  { background: radial-gradient(#f82249 50%, #65c375 52%); }
+  50%  { background: radial-gradient(#f82249 50%, #c2c365 52%); }
+  75%  { background: radial-gradient(#f82249 50%, #c36965 52%); }
+  100%   { background: radial-gradient(#f82249 50%, #c365c0 52%); }
+}
+
+.play-btn::after {
+
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+  border-left: 1.5vw solid #000;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
+
+.play-btn:hover::after {
+  border-left: 15px solid #000;
+ /* transition: */
+}
+
+.play-btn:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+
+@media only screen and (max-width: 481px){
+  .play-btn {
+    top:70vh;
+    left:42vw;
+    width: 15vw;
+    height: 15vw;
+  } 
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="param.ico" type="image/x-icon">
+	<title>SANKALP-2020::REGISTRATION</title>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\reg.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\header.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="assets/js/reg.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+
+
+<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyDShrOLx8PHIWYNKOSLTvqiIKK_0PWZfzc",
+            authDomain: "sankalp-2020.firebaseapp.com",
+    		databaseURL: "https://sankalp-2020.firebaseio.com",
+   			projectId: "sankalp-2020",
+    		storageBucket: "sankalp-2020.appspot.com",
+    		messagingSenderId: "37338760372",
+    		appId: "1:37338760372:web:4d46663ebdd500a7dc03e1",
+    		measurementId: "G-B5ZJ7JFFXD"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+	  
+			 
+	  </script>
+	  
+
+
+
+
+</head>
+<body>
+	<img class="source-image" src="assets/images/wall.jpg" alt="" />
+	<style>
+	.source-image {
+						width: 100%;
+						 height: 100%;
+						  position: absolute;
+						  top: 0;
+						  left: 0;
+						  z-index: -1;
+						  position:fixed;
+					}
+	</style> 
+
+
+	<div class="container" id="container" >
+	<div id="banner">
+			
+			<div class="col1">
+				<h1 id="sankalp" style="cursor: pointer;">SANKALP 2020</h1>
+			</div>			
+		</div>
+		<div id="bannerm1" style="z-index: 9990">
+			<div class="col1" >
+			  <a href="http://www.isteonline.in"><img id="i-img" src="assets/images/logos/iste.png"></a>
+			</div>
+			  </div>
+		  <div id="bannerm2" style="z-index: 9990">
+			<div class="col1">
+			  <a href="about.html#param"><img id="i-img" src="assets/images/logos/logo.png"></a>
+			</div>
+			  </div>
+		  <div id="bannerm3" style="z-index: 9990">
+			<div class="col1" id="nm">
+			  <a href="http://www.nist.edu/"><img id="i-img" src="assets/images/logos/nist.png"></a>
+			</div>	
+		  </div>
+		  <div id="bannerm4" style="z-index: 9990">
+			<div class="col1" >
+			  <a href="https://www.facebook.com/Sankalp-2020-103693811149908/"><img id="i-img" src="assets/images/logos/fb.png"></a>
+			</div>
+			  </div>
+			  <div id="bannerm5" style="z-index: 9990">
+				<div class="col1">
+					<a href="contact.html"><img id="i-img" src="assets/images/logos/cn.png"></a>
+				</div>
+			</div>
+		  <div id="bannerm6" style="z-index: 9990">
+			<div class="col1" id="nm">
+			  <a href="https://www.youtube.com/channel/UCSMP8nR1qIgsFVfPQ8G1elA"><img id="i-img" src="assets/images/logos/youtube.png"></a>
+			</div>	
+		  </div>
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">    	
+		<fieldset>
+            <legend style="font-family: 'Marck Script', cursive;"><center>
+                <h1><b><span class="label ss">Excited! Come along</span> </b></h1>
+				<h4 style="font-family: Helvetica;font-weight: bold;"><span style="color: red">*Note: Registration for students from other colleges only</span></h4></center></legend><br>
+				
+		<div class="form-group">
+		  <span class="label"><label class="col-md-4 control-label" id="name">Name</label></span>  
+		  <div class="col-md-4 inputGroupContainer">
+		  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+		  <input id="fname" name="name" placeholder="First Name" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>	  
+		<!-- Text input-->
+
+	
+
+		<div class="form-group">
+		  <span class="label"><label class="col-md-4 control-label">E-Mail</label></span>  
+		    <div class="col-md-4 inputGroupContainer">
+		    <div class="input-group">
+		        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+		  	<input id="email" name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <span class="label"><label class="col-md-4 control-label">Contact No.</label></span> 
+		    <div class="col-md-4 inputGroupContainer">
+		    <div class="input-group">
+		        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+		  <input id="contact" name="contact_no" placeholder="Contact Number" class="form-control" type="text">
+		    </div>
+		  </div>
+		</div>
+		<div class="form-group">
+			<span class="label"><label class="col-md-4 control-label">Aadhar No.</label></span> 
+			  <div class="col-md-4 inputGroupContainer">
+			  <div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-list-alt"></i></span>
+			<input id="aadhar" name="contact_no" placeholder="aadhar Number" class="form-control" type="text">
+			  </div>
+			</div>
+		  </div>
+
+
+		  <div class="form-group">
+			<span class="label"><label class="col-md-4 control-label">Batch</label></span> 
+			<div class="col-md-4 selectContainer">
+			  <div class="input-group">
+			  <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+			  <select id="batch" name="batch" class="form-control selectpicker">
+				<option value="">Select your Batch</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+				<option>2019</option>
+			  </select>
+			</div>
+		  </div>
+		  </div>
+
+		  <div class="form-group">
+			<span class="label"><label class="col-md-4 control-label" id="name">Roll No.</label></span>  
+			<div class="col-md-4 inputGroupContainer">
+			<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+			<input id="roll" name="name" placeholder="Roll no." class="form-control"  type="text">
+			  </div>
+			</div>
+		  </div>
+
+		<div class="form-group">
+		  <span class="label"><label class="col-md-4 control-label">College name</label></span>  
+		  <div class="col-md-4 inputGroupContainer">
+		  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+		  <input id="clgname"  name="college_name" placeholder="College Name" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <span class="label"><label class="col-md-4 control-label">College city</label></span>  
+		  <div class="col-md-4 inputGroupContainer">
+		  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+		  <input id="college_city" name="college_city" placeholder="College City" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>	  
+
+
+
+
+		<div class="form-group">
+			<span class="label"><label class="col-md-4 control-label">Referral  No.</label></span> 
+			  <div class="col-md-4 inputGroupContainer">
+			  <div class="input-group">
+				  <span class="input-group-addon"><i class="	glyphicon glyphicon-tags"></i></span>
+			<input id="Referral" name="Referal_no" placeholder="Referral_no" class="form-control" type="text">
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+		
+		<div class="form-check">
+		  <span class="label"><label class="col-md-4 control-label">Accomodation</label></span>
+			<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="accomodation" type="checkbox"  name="accomodation">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <font size="4" color="white">I want accomodation facility</font></label>
+			
+		</div>
+		<div id="loading"></div>
+		<div class="alert alert-danger" role="alert" id="fail_message">Email ID already exist!</div>
+		<div class="alert alert-success" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Thank you! You are registered for SANKALP 2020</div>
+
+		<div class="form-group">
+		  <label class="col-md-4 control-label"></label>
+		  <div class="col-md-4"><br>
+		    <button type="submit"  class="btn btn-lg btn-primary" style="margin-left: 30%;"id="register" >SUBMIT <span class="glyphicon glyphicon-send"></span></button>
+		  </div>
+		</div>
+
+		</fieldset>
+	
+		</form>
+		</div>
+
+
+		<script>
+			$(document).ready(function(){ 
+				$("#sankalp").click(function(){
+				  window.location.href="index.html";
+			  })
+			});
+		</script>
+
+</body>
+</html>

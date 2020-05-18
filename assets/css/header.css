@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@font-face{
+	font-family: allcrackedout;
+	src:url(../font/AllCrackedOut.ttf);
+}
+
+
+@font-face{
+    font-family: vimh;
+    src:url(../font/NEON.ttf);
+}
+@font-face{
+    font-family: blacka;
+    src:url(../font/BLACK.ttf);
+}
+
+
+.num{
+	font-family: 'Aladin', cursive;
+}
+
+bonce{
+    text-align: center; 
+    position: relative; 
+    font-family:;top: -40px; 
+    color:  blue;    
+    font-family: blacka;
+    font-size: 100px;
+    font-style: normal;
+}
+
+@keyframes heart{
+    0%,100%{transform: scale(1)}
+    10%{transform: scale(.9)}
+    20%{transform: scale(1)}
+    30%{transform: scale(.9)}
+    40%{transform: scale(1)}
+    50%{transform: scale(.9)}
+    60%{transform: scale(1)}
+    70%{transform: scale(.9)}
+    80%{transform: scale(1)}
+    90%{transform: scale(.9)}
+}
+/*banners on main page*/
+/*main sankalp*/
+#sankalpm{
+	padding-left: 4vw;
+	width: 60vw;
+	height: 10vw;
+	line-height: 3vw;
+	vertical-align: center;
+	font-family: 'allcrackedout';
+	font-size: 6vw;
+	background: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    -webkit-animation-name: glow;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+#bannerm{
+	position: absolute;
+	top:0px;
+	left: 20%;
+	background: none;
+    line-height: normal;
+	border-top-left-radius: 70px 70px;
+	border-top-right-radius: 70px 70px;
+	border-bottom-left-radius: 70px 70px;
+	border-bottom-right-radius: 70px 70px;
+	box-shadow: 4px 4px 30px  blue inset;
+	height:16vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*side ones*/
+#bannerm1{
+	position: fixed;
+	top:67px;
+	right: 0px;
+	background: #000000;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#bannerm2{
+	position: fixed;
+	top:167px;
+	right: 0px;
+	background: #000000;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#bannerm3{
+	position: fixed;
+	top:267px;
+	right: 0px;
+	background: #000000;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#bannerm4{
+	position: fixed;
+	top:67px;
+	left: 0px;
+	background: #000000;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#bannerm5{
+	position: fixed;
+	top:167px;
+	left: 0px;
+	background: #000000;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#bannerm6{
+	position: fixed;
+	top:267px;
+	left: -10px;
+	background: #000000;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+    height: 8vh;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*lower one*/
+#sankalpm4{
+	top: 0;
+	padding-left: 38vw;
+	width: 100vw;
+	height: 2vw;
+	line-height: 1vw;
+	vertical-align: middle;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+	font-size: 1.6vw;
+	background: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:  white;
+    -webkit-animation-name: heart;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 10;
+}
+#bannerm7{
+	position: absolute;
+	top: 842px;
+	left: 300px;
+	background: none;
+    line-height: normal;
+	border-top-left-radius: 70px 70px;
+	border-top-right-radius: 70px 70px;
+	border-bottom-left-radius: 70px 70px;
+	border-bottom-right-radius: 70px 70px;
+	box-shadow: 4px 4px 30px  blue inset;
+	height:10vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*core member*/
+.visit{
+	display: inline-block;
+	background-color: transparent;
+	padding-top: 0vw;
+    box-shadow: 0px 0px 20px #000;
+	padding-bottom: 0vw;
+	padding-right: 0vw;
+	padding-left: 0vw;
+	margin-left: 0vw;
+	margin-right: 0vw;
+	font-size: 1.5vw;
+	font-family: 'Exo 2', monospace;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+}
+
+/*d team*/
+.visit0{
+
+	display: inline-block;
+	background-color: transparent;
+	padding-top: .5vw;
+    box-shadow: 0px 0px 20px #000;
+	padding-bottom: .1vw;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	margin-left: 0vw;
+	margin-right: 3%;
+    font-size: 1.5vw; 
+	font-family: 'Exo 2', monospace;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+}
+.visit0 a{
+	color:white;
+}
+/* oc*/
+.visit1{
+	width: 100%;
+	display: inline-block;
+	padding-top: 0.7%;
+
+	
+	padding-left:40%;
+	font-size: 180%; 
+	font-family: 'Exo 2', monospace;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+}
+.visit1 a{
+	color:white;
+}
+/*CHIRANJEEB*/
+.visit2{
+
+	display: inline-block;
+	background-color: transparent;
+	padding-top: 0.4vw;
+    box-shadow: 0px 0px 20px #000;
+	padding-bottom: .1vw;
+	padding-right: 3vw;
+	padding-left: 1vw;
+	margin-left: 70%;
+	margin-right: 0%;
+	box-align: left;
+	text-align: left;
+	align-self:initial;
+	align-content: initial;
+	font-size: 1.6vw; 
+	font-family: 'Exo 2', monospace;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+/*banners on main page*/
+
+/*banners on other pages*/
+/*main sankalp*/
+#sankalp{
+	margin-left:8% ;
+	padding-bottom: 2vw;
+	padding-left: 1%;
+	width: 46vw;
+	height: 8vw;
+	line-height: 5vw;
+	vertical-align: center;
+	font-family: 'allcrackedout';
+	font-size: 4vw;
+	background: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    -webkit-animation-name: glow;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
+#banner{
+	position: absolute;
+	left:27%;
+	background: none;
+    line-height: normal;
+	border-top-left-radius: 70px 70px;
+	border-top-right-radius: 70px 70px;
+	border-bottom-left-radius: 70px 70px;
+	border-bottom-right-radius: 70px 70px;
+	box-shadow: 4px 4px 30px blue inset;
+	height:20%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+/*side ones*/
+#banner21{
+	position: absolute;
+	top:20px;
+	right: 0px;
+	background: #000000;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	box-shadow: -4px 4px 20px green;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#banner22{
+	position: absolute;
+	top:120px;
+	right: 0px;
+	background: #000000;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	box-shadow: -4px 4px 20px green;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#banner23{
+	position: absolute;
+	top:220px;
+	right: 0px;
+	background: #000000;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#banner24{
+	position: absolute;
+	top:20px;
+	left: 0px;
+	background: #000000;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#banner25{
+	position: absolute;
+	top:120px;
+	left: 0px;
+	background: #000000;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:8vh;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#banner26{
+	position: absolute;
+	top:220px;
+	left: -10px;
+	background: #000000;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	box-shadow: -4px 4px 20px  blue;
+	height:auto;
+    width: 10vh;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*coming soon*/
+#banner7{
+	position: absolute;
+	top: 500px;
+	left: 180px;
+	background: none;
+    line-height: normal;
+	border-top-left-radius: 70px 70px;
+	border-top-right-radius: 70px 70px;
+	border-bottom-left-radius: 70px 70px;
+	border-bottom-right-radius: 70px 70px;
+	box-shadow: 4px 4px 30px  blue inset;
+	height:10vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*banners on other pages*/
+
+#banner1{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background: none;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	box-shadow: 4px 4px 30px  blue;
+	height:15vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#banner3{
+	position: absolute;
+	top:0px;
+	left: 10px;
+	background: none;
+	border-radius: 30px 30px;
+	box-shadow: 4px 4px 30px  blue;
+	height:15vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#b-img{
+	height:auto;
+	width:8vw;
+	margin-left:0vw;
+	margin-right: 0vw;
+}
+#n-img{
+	height:auto;
+	width:8vw;
+	margin-left:0vw;
+	margin-right: 0vw;
+}
+#i-img{
+	height: auto;
+	width: 6vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.col1{
+	display: inline-block;
+	float: left;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: fill;
+  color:  blue;
+}
+
+
+.visit a{
+	color:  blue;
+}
+
+.visit:hover{
+	background-color: #00000090;
+
+}
+
+#copyright{
+	color:white;
+	float:middle;
+    padding-left:auto;
+	font-family: 'Exo 2', monospace;
+
+}
+
+#copyright a{
+	color: white;
+}
+
+@media screen and (max-width: 1080px){
+	#sankalp{
+  		line-height: 4vh;
+  		font-size: 5vw;
+  		width: 50vw;
+  	}
+  	#b-img{
+		height:auto;
+		width:12vw;
+	}
+	#n-img{
+		height:auto;
+		width:12vw;
+		margin-left:2vw;
+		margin-right: 2vw;
+	}
+	#i-img{
+		height: auto;
+		width: 10vw;
+		margin-left: 3vw;
+		margin-right: 2vw;
+	}
+  	#banner{
+
+		height:10vh;
+  	}
+  	#banner2{
+		position: fixed;
+  		height:10vh;
+  	}
+
+    .visit{
+		font-size: 3vw; 
+		padding-right: 1vw;
+		padding-left:1vw;
+		
+	}
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  
+}

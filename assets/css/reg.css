@@ -1,0 +1,76 @@
+@font-face{
+    font-family: allcrackedout;
+    src:url(../font/AllCrackedOut.ttf);
+}
+
+body{
+    font-family:'Open Sans';
+    margin:0px;
+    background:black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.label
+{
+    color: aliceblue;
+    font-size: 16px;
+    box-sizing: 30%;
+}
+
+.success
+{
+    background-color: aliceblue;
+    font-size: 32px;
+}
+
+.ss
+{
+    font-size: 80%;
+}
+
+.well{
+    margin-top: 20vh;
+    display: block;
+	background-color: transparent;
+	-webkit-box-shadow:blue,blue!important;
+    -moz-box-shadow:blue,blue!important;
+    box-shadow:blue,blue!important;
+}
+.input-group {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(255,0,0,0.3)!important;
+    -moz-box-shadow: 5px 5px 5px 0px rgba(255,0,0,0.3)!important;
+    box-shadow: 5px 5px 5px 0px rgba(255,0,0,0.3)!important;
+}
+span.input-group-addon i {
+    color: #ff0000;
+    font-size: 17px;
+}
+
+#success_message{ display: none;
+	margin-left: 30%;
+	margin-right:30%;
+}
+#fail_message{ display: none;
+    margin-left: 30%;
+    margin-right:30%;
+}
+
+#loading{
+	display: none;
+	background: url(loading.gif);
+	background-size: cover;
+	background-position: center;
+	height:50px;
+	width:50px;
+	margin: 0 auto;
+}
+fieldset{
+    
+}
+.well,.form-horizontal{
+    width:70%;
+    margin-left: 15%;
+}

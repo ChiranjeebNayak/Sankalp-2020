@@ -1,0 +1,108 @@
+@font-face{
+    font-family: allcrackedout;
+    src:url(../font/AllCrackedOut.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+
+@font-face{
+    font-family: android;
+    src:url(../font/CastileInlineGrunge.otf);
+}
+@font-face{
+    font-family: ars;
+    src:url(../font/EDITORS.ttf);
+}
+
+body{
+    margin:0px;
+    background:url(wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Cooper Black','androi';
+}
+
+
+#about{
+    
+    position:relative;
+    display:block;
+    text-align:center;
+    text-decoration-style: dashed;
+    width: 65%;
+    color: blue;
+    margin:auto;
+    padding:5vw;
+    margin-top: 1vw;
+    margin-bottom: 3vh;
+    min-height: 360px;
+    background-image:url(wall.jpg);
+    background-size: cover;
+    background-repeat: repeat; 
+    border-radius: 5px;
+    box-shadow: 0 0 20px  blue;
+}
+
+#about h3{
+    font-size: 6vw;
+    font-family: android;
+}
+#about p{
+    font-family: Arial;
+    font-size: 2vw;
+    color:white;    
+    
+}
+
+#netra{
+    
+    position:relative;
+    display:block;
+    text-align:center;
+    width: 65%;
+    color: blue;
+    margin:auto;
+    padding:4vw;
+    margin-top: 1vw;
+    margin-bottom: 3vh;
+    min-height: 360px;
+    background-image: url(wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 0px;
+    box-shadow: 0 0 20px  #0000ff;
+}
+
+#netra h3{
+    font-size: 6vw;
+    font-family: android;
+   
+}
+#netra p{
+    font-size: 2vw;
+    font-family: Arial;
+    color:white;
+}
+
+#pillar{
+    color: cornsilk;
+    font-size: 2vw;
+    font-family: arial;
+}
+.carousel-bg .carousel-inner .item {
+  background-color: pink;
+  background-size: cover;
+  background-position: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  min-height: 400px;
+  border-radius: 3px;
+}
+
+
+.slide{ 
+  margin-top: 25vh;
+}
+

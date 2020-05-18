@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>firebase read data</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+
+
+<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyDShrOLx8PHIWYNKOSLTvqiIKK_0PWZfzc",
+            authDomain: "sankalp-2020.firebaseapp.com",
+    		databaseURL: "https://sankalp-2020.firebaseio.com",
+   			projectId: "sankalp-2020",
+    		storageBucket: "sankalp-2020.appspot.com",
+    		messagingSenderId: "37338760372",
+    		appId: "1:37338760372:web:4d46663ebdd500a7dc03e1",
+    		measurementId: "G-B5ZJ7JFFXD"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+	  
+			 
+      </script>
+      
+      <button id="btn"type="submit">read</button>
+      <p></p>
+      <p></p>
+
+      <script>
+
+                
+              $(document).ready(function(){
+                  $("#btn").click(function(){
+                    
+                                                    var database = firebase.database();
+                                                    database.ref('user').once('value', function(snapshot){
+                                                        if(snapshot.exists()){
+                                                            var content = '';
+                                                            snapshot.forEach(function(data){
+                                                                var val = data.val();
+                                                                content +='<tr>';
+                                                                content += '<td>' + val.Name + '</td>';
+                                                                content += '<td>' + val.batch + '</td>';
+                                                                content += '<td>' + val.contact+ '</td>';
+                                                                content += '<td>' + val.Email+ '</td>';
+                                                                content += '<td>' + val.College_name+ '</td>';
+                                                                content += '<td>' + val.college_city+ '</td>';
+                                                                content += '<td>' + val.accomodation+ '</td>';
+                                                                content += '<td>' + val.referral+ '</td>';
+                                                                content += '<td>' + val.roll+ '</td>';
+                                                                content += '<td>' + val.aadhar+ '</td>';
+                                                                content += '</tr>';
+                                                            });
+                                                            $('#tbl').append(content);
+                                                        }
+                                                    });
+
+
+                                                  
+                                     });
+                                });
+
+                               
+
+
+                                     
+                            
+      </script>
+
+<table id="tbl" style="width:100%" id="ex-table">
+    <tr id="tr">
+      <th>Name</th>
+      <th>batch</th>
+      <th>contact</th>
+      <th>email</th>
+      <th>college_name</th>
+      <th>college_city</th>
+      <th>accomodation</th>
+      <th>referral</th>
+      <th>roll</th>
+      <th>aadhar</th>
+    </tr>
+  </table>
+
+</body>
+</html>
